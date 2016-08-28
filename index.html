@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="weChat">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/angular.js"></script>
+		<script type="text/javascript" src="js/angular-route.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<title></title>
+	</head>
+	<body ng-controller="mainCtrl">
+		<div id="content">
+			<ng-view></ng-view>
+		</div>
+		<div ng-footer></div>
+	</body>
+</html>

@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+.pengyouquan {
+  width: 100%;
+  height: .86rem;
+  border-top: 0.01rem solid #d9d9d9;
+  border-bottom: 0.01rem solid #d9d9d9;
+  background-color: white;
+  margin-top: .3rem;
+}
+
+.pengyouquan .friend {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.pengyouquan .friend .icon1 {
+  width: .44rem;
+  height: .42rem;
+  background-image: url("../img/find_06.png");
+  background-size: .44rem .42rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: .34rem;
+}
+
+.pengyouquan .friend span {
+  left: 1.08rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: block;
+  width: 1rem;
+  height: .42rem;
+  line-height: .42rem;
+  font-size: .3rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: '苹方';
+  color: #000;
+  text-align: left;
+}
+
+.pengyouquan .friend img {
+  width: .62rem;
+  height: .64rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: .7rem;
+}
+
+.pengyouquan .friend .more {
+  width: .3rem;
+  height: .26rem;
+  background-image: url("../img/find_12.png");
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: .3rem;
+  background-size: .3rem .26rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.saoyisao {
+  margin-top: .4rem;
+}
+
+.saoyisao .sao .icon2 {
+  background-image: url("../img/find_10.png");
+}
+
+.fujin {
+  margin-top: .4rem;
+}
+
+.fujin .fujinren .icon3 {
+  background-image: url("../img/find_16.png");
+}
+
+.fujin .fujinren span {
+  width: 1.34rem;
+}
+
+.gengduo {
+  height: 1.74rem;
+}
+
+.gengduo .gouwu {
+  margin-left: .3rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #D9D9D9;
+  height: .86rem;
+}
+
+.gengduo .gouwu span {
+  width: .7rem;
+  left: .78rem;
+}
+
+.gengduo .gouwu .icon4 {
+  background-image: url("../img/find_18.png");
+  left: .04rem;
+}
+
+.gengduo .gouwu .more {
+  right: 0.6rem;
+}
+
+.gengduo .game {
+  height: .86rem;
+  border-bottom: none;
+}
+
+.gengduo .game .icon5 {
+  background-image: url("../img/find_20.png");
+}
+
+.gengduo .game span {
+  width: .7rem;
+}
+
+.nav .nav-inner .nav1 .img {
+  background-image: url("../img/find_23.png");
+}
+
+.nav .nav-inner .nav1 .word {
+  color: #929292;
+}
+
+.nav .nav-inner .nav3 .img {
+  background-image: url("../img/find_25.png");
+}
+
+.nav .nav-inner .nav3 .word {
+  color: #09BB07;
+}
